@@ -54,3 +54,8 @@ The second line creates an instance of our imported Flask class and names it ` a
 The second to last line "Ensure[s] this file is being run directly and not from a different module" by associating our project `__name__` with `__main__`.
 The last line is the line that actually runs our established app (from line 2) in debug mode.
 - https://login.codingdojo.com/m/172/7219/52126
+
+### linting errors
+
+"...you may see some red squiggly lines under your import statements because your text editor's linter doesn't recognize packages in your virtual environment. You can ignore them unless running the file actually gives you errors!"
+- https://login.codingdojo.com/m/172/7219/52126
