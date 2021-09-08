@@ -84,5 +84,5 @@ POST - "POST is used to send data to a server to create/update a resource."
 
 ### render_template() 
 
-This is a fundtion that "...that allows us to return the rendered HTML that we created."
+This is a function that "...that allows us to return the rendered HTML that we created."
 - https://login.codingdojo.com/m/172/7219/52129
