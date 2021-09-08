@@ -68,6 +68,11 @@ Every route has two parts:
     URL"
 - https://login.codingdojo.com/m/172/7219/52127
 
+### Root Route
+
+The root route is the base route of a url: ` "/" `
+
+- https://login.codingdojo.com/m/172/7219/52129
 
 ### HTTP methods
 
@@ -75,3 +80,8 @@ GET - "GET is used to request data from a specified resource."
 POST - "POST is used to send data to a server to create/update a resource."
 - https://www.w3schools.com/tags/ref_httpmethods.asp
 **Because we will only be using GET and POST in the Python stack, I will only include the definitions for those here**
+
+### render_template() 
+
+This is a fundtion that "...that allows us to return the rendered HTML that we created."
+- https://login.codingdojo.com/m/172/7219/52129
