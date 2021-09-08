@@ -67,3 +67,11 @@ Every route has two parts:
     HTTP method (GET, POST, PUT, PATCH, DELETE)
     URL"
 - https://login.codingdojo.com/m/172/7219/52127
+
+
+### HTTP methods
+
+GET - "GET is used to request data from a specified resource."
+POST - "POST is used to send data to a server to create/update a resource."
+- https://www.w3schools.com/tags/ref_httpmethods.asp
+**Because we will only be using GET and POST in the Python stack, I will only include the definitions for those here**
