@@ -86,3 +86,11 @@ POST - "POST is used to send data to a server to create/update a resource."
 
 This is a function that "...that allows us to return the rendered HTML that we created."
 - https://login.codingdojo.com/m/172/7219/52129
+
+### Template Engines
+
+"A template engine enables you to use static template files in your application. At runtime, the template engine replaces variables in a template file with actual values, and transforms the template into an HTML file sent to the client. This approach makes it easier to design an HTML page"
+
+**NOTE:** This definition comes from a discussion about Express (a javascript language) however proved a simple and clear explanation of what a template engine is in general.
+
+- https://expressjs.com/en/guide/using-template-engines.html
