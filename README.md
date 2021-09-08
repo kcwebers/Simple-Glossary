@@ -30,3 +30,27 @@ In simpler terms, using ` @app.route() ` "catches" a url and then runs a block o
 def hello_world():
     return 'Hello World!' 
 ```
+
+### server.py and structure
+
+The ` server.py ` is the main engine of our projects as it is the file we will run! Every ` server.py ` file should have the same components at the top and bottom:
+
+```PY
+from flask import Flask # you can add additional imports like render_template, request, session, etc. here
+app = Flask(__name__)
+
+# app routes and functions go in the middle
+
+
+if __name__=="__main__":
+    app.run(debug=True)
+```
+
+The first 2 lines and the final 2 lines work together to make the engine run for our projects. If they are incorrect or out of place, you application may not run properly!
+
+The first line imports Flask and makes it available for us to use.
+The second line creates an instance of our imported Flask class and names it ` app `.
+
+The second to last line "Ensure[s] this file is being run directly and not from a different module" by associating our project `__name__` with `__main__`.
+The last line is the line that actually runs our established app (from line 2) in debug mode.
+- https://login.codingdojo.com/m/172/7219/52126
