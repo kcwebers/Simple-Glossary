@@ -26,7 +26,7 @@
 
 In simpler terms, using ` @app.route() ` "catches" a url and then runs a block of code in association with that route. A complete app route might look like the following, where the route ` '/hello' ` is caught and a function is ran that ultimately returns the HttpResponse of ` Hello World! `
 ```PY
-@app.route('/hello')          # The "@" decorator associates this route with the function immediately following
+@app.route('/hello')
 def hello_world():
     return 'Hello World!' 
 ```
