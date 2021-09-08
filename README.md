@@ -63,9 +63,7 @@ The last line is the line that actually runs our established app (from line 2) i
 ### Routes
 
 "Routes are an essential part of any web application. A route is much like a variable name we assign to a request. The job of a route is to communicate to the server what kind of information the client needs. This route name is attached to a route on our server that points towards a specific set of instructions. These instructions contain information about how to interpret the data being sent, the operations that need to be completed, and the response that should be sent back. These instructions are the code we'll be creating!
-Every route has two parts:
-    HTTP method (GET, POST, PUT, PATCH, DELETE)
-    URL"
+Every route has two parts: HTTP method (GET, POST, PUT, PATCH, DELETE), and a URL"
 - https://login.codingdojo.com/m/172/7219/52127
 
 ### Root Route
@@ -79,8 +77,10 @@ The root route is the base route of a url: ` "/" `
 GET - "GET is used to request data from a specified resource."
 
 POST - "POST is used to send data to a server to create/update a resource."
-- https://www.w3schools.com/tags/ref_httpmethods.asp
+
 **Because we will only be using GET and POST in the Python stack, I will only include the definitions for those here**
+
+- https://www.w3schools.com/tags/ref_httpmethods.asp
 
 ### render_template() 
 
