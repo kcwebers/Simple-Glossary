@@ -21,7 +21,7 @@
 
 ### @app.route("/")
 
-"The "@" decorator associates this route with the function immediately following"
+"The "@" decorator associates this route with the function immediately following... We set up a routing rule using the "@" decorator with the route method: @app.route("/route_string"). The routing rule is associated with the function immediately following it."
 - https://login.codingdojo.com/m/172/7219/52126
 
 In simpler terms, using ` @app.route() ` "catches" a url and then runs a block of code in association with that route. A complete app route might look like the following, where the route ` '/hello' ` is caught and a function is ran that ultimately returns the HttpResponse of ` Hello World! `
