@@ -36,10 +36,10 @@ def hello_world():
 The ` server.py ` is the main engine of our projects as it is the file we will run! Every ` server.py ` file should have the same components at the top and bottom:
 
 ```PY
-from flask import Flask # you can add additional imports like render_template, request, session, etc. here
+from flask import Flask # you can add additional imports like render_template here
 app = Flask(__name__)
 
-# app routes and functions go in the middle
+# app routes and functions go in the middle of the server file
 
 
 if __name__=="__main__":
