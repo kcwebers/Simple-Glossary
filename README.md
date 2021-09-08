@@ -59,3 +59,11 @@ The last line is the line that actually runs our established app (from line 2) i
 
 "...you may see some red squiggly lines under your import statements because your text editor's linter doesn't recognize packages in your virtual environment. You can ignore them unless running the file actually gives you errors!"
 - https://login.codingdojo.com/m/172/7219/52126
+
+### Routes
+
+"Routes are an essential part of any web application. A route is much like a variable name we assign to a request. The job of a route is to communicate to the server what kind of information the client needs. This route name is attached to a route on our server that points towards a specific set of instructions. These instructions contain information about how to interpret the data being sent, the operations that need to be completed, and the response that should be sent back. These instructions are the code we'll be creating!
+Every route has two parts:
+    HTTP method (GET, POST, PUT, PATCH, DELETE)
+    URL"
+- https://login.codingdojo.com/m/172/7219/52127
